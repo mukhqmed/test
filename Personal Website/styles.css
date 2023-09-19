@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    text-align: center;
+}
+nav {
+    padding: 15px;
+    border: 3px solid mediumseagreen;
+    border-radius: 3px;
+    }
+h1{
+    color: tomato;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #303030;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: white;
+    background-color: bisque;
+}
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    /* background-image: url(./images/figure.jpg); */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+img{
+    width: 400;
+    height: 400;
+}
+table,  th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: brown;
+    border-style: dotted;
+    
+  }
+iframe{
+    width: 60%;
+    height: 300px;
+}
+span{
+    color:yellow;
+}
+button {
+    border: none;
+    color: goldenrod;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.quote {
+    color: darkslategrey;
+    font-style: italic;
+    font-weight: bold;
+}
+#main-image {
+    border: 5px solid slateblue;
+}
+#main-header{
+    padding: 10px;
+    border: 3px solid darkblue;
+}
+ol {
+    list-style-type: upper-roman;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none; 
+}
+a:visited {
+    color: violet;
+}
+a:hover {
+    color: mediumseagreen;
+}
+.main-heading {
+    font-style: italic;
+    text-decoration: underline dotted;
+  }
+section{
+    padding: 10px;
+    margin-top: 10px;
+  }
+.tech{
+    border: 18px solid darkolivegreen;
+  }
+.spaceflight{
+    border: 3px solid darkmagenta;
+}
+.science-astronomy{
+    border: 3px solid darkcyan;
+}
+.tech h2 {
+    color: darkgray;
+  }
+  header > h2 {
+    padding-left: 10px;
+    border-left: 3px solid darksalmon;
+  }
+  nav+h1 {
+    border-left: 20px solid;
+    color: pink;
+  }
+  #main-header ~ .main-footer {
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid darkkhaki;
+
+  }
+  .main-navigation > ul {
+    list-style: none;
+    padding-left: 15px;
+    color: blueviolet;
+  }
+  ol > li:first-child {
+    border-bottom: 3px solid darkmagenta;
+  }
+  ol > li:last-child {
+    border-top: 3px solid darkturquoise;
+  }
+  .main-footer a:hover {
+    color: yellowgreen;
+  }
+  a:focus {
+    background-color: yellow;
+  }
+  .tech h2::before {
+    content: "•";
+  }    
+  .spaceflight > h2::after {
+    content: '�';
+  }
